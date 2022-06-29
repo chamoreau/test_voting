@@ -14,13 +14,13 @@
 3) Testing proposal adding process
  - test if storing proposal in array works 
  - tests if the event ProposalRegistered is emitted
- => test requires
+ - test requires
  - testing if a non-voter can add a proposal
  - testing if a user can send a proposal while not in the right session
 
 4) Testing voting process (setVotes)
  - test if the event Voted is emitted
- => test requires
+ - test requires
  - testing if the user can vote multiple times
  - testing if the user can vote even during the wrong workflow status
  - testing if user can input a non existing proposalID (in this case propid =10)
